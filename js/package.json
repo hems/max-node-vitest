@@ -1,0 +1,22 @@
+{
+  "name": "max-node-vitest",
+  "version": "0.0.1",
+  "author": "Henrique Matias <mail@hems.io>",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:coverage:watch": "vitest --coverage",
+    "test:coverage:html": "vitest run --coverage && open-cli coverage/index.html"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "open-cli": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
